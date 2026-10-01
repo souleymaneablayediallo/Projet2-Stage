@@ -1,129 +1,314 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>À propos - Souleymane</title>
-<link rel="stylesheet" href="à propos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio - Moussa Ndoye</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Police Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icônes -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
-<div class="wrap">
-  <header class="navbar">
-    <div class="logo">Souleymane</div>
-    <nav>
-      <a href="projets.html">Projets</a>
-      <a href="à propos.html" class="active">À propos</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+    <!-- ================= HEADER ================= -->
 
-  <section class="about">
-    <div class="about-top">
-      <h1>À PROPOS DE MOI</h1>
-      <div class="about-text">
-        <h2>Je suis développeur front-end basé à DAKAR,
-            avec une formation en génie informatique.
-          </h2>
+    <header class="header">
 
-        <p>Je suis développeur front-end et je recherche des opportunités passionnantes.
-          Avec une formation en génie informatique, j'accorde une grande importance à la précision
-          et au développement de solutions intuitives et performantes. J'aime relever des défis et résoudre des problèmes.
-        </p>
-        
-        <p>En ce moment, j'explore React.js,
-          J'améliore mon intérêt pour le web design.
-          En dehors du code, j'aime jouer au football,
-          Animer et la photographie.
-          Je continue d'apprendre chaque jour pour améliorer mes compétences.
-        </p>
+        <a href="#" class="logo">MOUSSA NDOYE</a>
 
-        <div class="actions">
-          <a href="#" class="btn-lime">TÉLÉCHARGER CV <span>↗</span></a>
-          <a href="#" class="ico">in</a>
-          <a href="#" class="ico">◎</a>
-        </div>
-      </div>
-    </div>
+        <nav class="navigation">
+            <a href="#projets">Projets</a>
+            <a href="#apropos">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <div class="about-img">
-      <img src="img/4.jpg" alt="Souleymane">
-    </div>
-  </section>
+    </header>
 
-  <section class="row">
-    <h2 class="title">MES COMPÉTENCES</h2>
-    <div class="content">
-      <p>Je suis toujours à la recherche de nouvelles compétences à développer.
-        J'aime relever de nouveaux défis, apprendre les technologies variées et 
-        m'assurer de toujours faire pour proposer des solutions modernes et efficaces.
-      </p>
-      <div class="pills">
-        <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>JQUERY</span>
-        <span>BOOTSTRAP</span><span>FIGMA</span><span>TAILWIND CSS</span>
-      </div>
-    </div>
-  </section>
 
-  <section class="row">
+    <main>
 
-    <h2 class="title">MON EXPÉRIENCE</h2>
-    <div class="content">
-      <div class="job">
-        <div class="job-top">
-          <h3>Développeur freelance</h3>
-          <span>Nov 2021 — Present</span>
-        </div>
+        <!-- ================= À PROPOS ================= -->
 
-        <p>J'ai exercé en tant que développeur freelance sur différents projets,
-          en mettant l'accent sur la réalisation de solutions web adaptées aux besoins
-          spécifiques des clients. Je veille à garantir des interfaces de haute qualité,
-          accessibles, performantes et fiables, tout en respectant les délais impartis.
-        </p>
+        <section class="about" id="apropos">
 
-      </div>
+            <div class="about-top">
 
-      <div class="job">
-        <div class="job-top">
-          <h3>Stagiaire Front-End</h3>
-          <span>Sep 2025 — Nov 2025</span>
-        </div>
+                <div class="about-title">
+                    <h1>À PROPOS DE MOI</h1>
+                </div>
 
-        <div class="company">Daray Tech</div>
-        <p>Stage dans une entreprise dynamique spécialisée
-          dans le développement de solutions digitales sur mesure pour
-          les PME et startups. Forte d'une équipe de 25 collaborateurs passionnés.
-        </p>
-      </div>
+                <div class="about-text">
 
-    </div>
-  </section>
+                    <h2>
+                        Je suis développeur front-end basé à DAKAR,
+                        avec une formation en génie Informatique.
+                    </h2>
 
- 
-  <section class="row contact">
-    <div class="c-left">
-      <h2 class="title">ENTRONS EN CONTACT</h2>
-      <p class="mail">Dites bonjour à <a href="mailto:souleymane@gmail.com">souleymane@gmail.com</a><br>
-        Pour en savoir plus, voici mon — <a href="#">CV</a> —
-      </p>
+                    <p>
+                        Je suis développeur front-end basé à Dakar et je recherche
+                        des opportunités passionnantes. Avec une formation en génie
+                        informatique, j'accorde une grande importance à
+                        l'accessibilité dans mes développements.
+                    </p>
 
-      <div class="socials">
-        <a href="#">in</a>
-        <a href="#">𝕏</a>
-        <a href="#">○</a>
-        <a href="#">◎</a>
-      </div>
-      <small>© 2025 Souleymane.</small>
-    </div>
-    <form class="c-right">
-      <label>Nom Complet<input type="text" placeholder="souleymane"></label>
-      <label>Email<input type="email"></label>
-      <label>Sujet<input type="text"></label>
-      <label>Message<textarea rows="5"></textarea></label>
-      <button type="submit" class="btn-lime small">ENVOYER</button>
-    </form>
-  </section>
-</div>
+                    <p>
+                        Passionné et curieux, j'aime relever des défis et résoudre
+                        des problèmes.
+                    </p>
+
+                    <p>
+                        En ce moment, j'explore React.js, Laravel et j'y
+                        m'intéresse aussi un peu au design. En dehors du code,
+                        j'aime jouer au football, pratiquer et la photographie.
+                        Je continue d'apprendre chaque jour pour améliorer mes
+                        compétences.
+                    </p>
+
+                    <div class="buttons">
+
+                        <a href="#" class="cv-button">
+                            TÉLÉCHARGER CV
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+
+                        <a href="#" class="social-button">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#" class="social-button">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO -->
+
+            <div class="photo-container">
+
+                <img src="images/3.jpg"
+                     alt="Photo de Moussa Ndoye"
+                     class="profile-image">
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COMPÉTENCES ================= -->
+
+        <section class="skills" id="projets">
+
+            <div class="section-title">
+                <h2>MES COMPÉTENCES</h2>
+            </div>
+
+            <div class="skills-content">
+
+                <p>
+                    Je suis toujours à la recherche de nouvelles compétences
+                    à développer. J'aime relever de nouveaux défis, apprendre
+                    des technologies variées et enrichir continuellement mon
+                    savoir-faire pour proposer des solutions modernes et efficaces.
+                </p>
+
+                <div class="skills-list">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JAVASCRIPT</span>
+                    <span>JQUERY</span>
+                    <span>BOOTSTRAP</span>
+                    <span>FIGMA</span>
+                    <span>TAILWIND CSS</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPÉRIENCE ================= -->
+
+        <section class="experience">
+
+            <div class="section-title">
+                <h2>MON EXPÉRIENCE</h2>
+            </div>
+
+            <div class="experience-content">
+
+                <article class="experience-item">
+
+                    <div class="experience-header">
+
+                        <h3>Développeur freelance</h3>
+
+                        <span>Nov 2023 — Present</span>
+
+                    </div>
+
+                    <p>
+                        J'ai exercé en tant que développeur freelance sur
+                        différents projets, en assurant la conception et la
+                        réalisation de solutions web adaptées aux besoins
+                        spécifiques des clients.
+                    </p>
+
+                    <p>
+                        Je veille à garantir des livrables de haute qualité,
+                        alliant accessibilité, performance et fiabilité,
+                        tout en respectant les délais impartis.
+                    </p>
+
+                </article>
+
+
+                <article class="experience-item">
+
+                    <div class="experience-header">
+
+                        <div>
+
+                            <h3>Stagiaire Front-End</h3>
+
+                            <strong>Damel-Tech</strong>
+
+                        </div>
+
+                        <span>Sep 2023 — Nov 2023</span>
+
+                    </div>
+
+                    <p>
+                        Damel-Tech est une entreprise dynamique spécialisée
+                        dans le développement de solutions digitales sur mesure
+                        pour les PME et startups.
+                    </p>
+
+                    <p>
+                        Forte d'une équipe de collaborateurs passionnés,
+                        l'entreprise accompagne ses clients dans leurs
+                        projets numériques.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact" id="contact">
+
+            <div class="contact-info">
+
+                <h2>ENTRONS EN CONTACT</h2>
+
+                <p>
+                    Dites bonjour à
+                    <a href="mailto:moussandoye@gmail.com">
+                        moussandoye@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    Pour en savoir plus, voici mon
+                    <a href="#">CV</a>
+                </p>
+
+
+                <div class="contact-socials">
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORMULAIRE -->
+
+            <form class="contact-form">
+
+                <label for="nom">Nom Complet</label>
+
+                <input type="text"
+                       id="nom"
+                       name="nom"
+                       placeholder="John Doe">
+
+
+                <label for="email">Email</label>
+
+                <input type="email"
+                       id="email"
+                       name="email">
+
+
+                <label for="sujet">Sujet</label>
+
+                <input type="text"
+                       id="sujet"
+                       name="sujet">
+
+
+                <label for="message">Message</label>
+
+                <textarea id="message"
+                          name="message"></textarea>
+
+
+                <button type="submit">
+                    ENVOYER
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>© 2023 Moussa Ndoye</p>
+
+    </footer>
 
 </body>
 </html>
